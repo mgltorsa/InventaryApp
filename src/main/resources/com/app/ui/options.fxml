@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="345.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.ui.OptionView">
+   <children>
+      <Button fx:id="btIntuitive" layoutX="21.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="301.0" text="Metodo intuitivo" />
+      <Button fx:id="btSimpleMean" layoutX="21.0" layoutY="60.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="301.0" text="Promedio movil simple" />
+      <Button fx:id="btPonderateMean" layoutX="21.0" layoutY="111.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="301.0" text="Promedio movil ponderado" />
+      <Button fx:id="btExpSuavization" layoutX="21.0" layoutY="158.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="301.0" text="Suavización exponencial simple" />
+      <Button fx:id="btExpDouble" layoutX="21.0" layoutY="210.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="301.0" text="Suavización exponencial doble" />
+      <Button fx:id="btExpForecast" layoutX="21.0" layoutY="254.0" mnemonicParsing="false" prefWidth="301.0" text="Suavización exponencial con proyección de tendencia" />
+      <Button fx:id="btCroston" layoutX="21.0" layoutY="300.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="301.0" text="Método croston" />
+      <TextArea fx:id="txInfo" editable="false" layoutX="21.0" layoutY="334.0" prefHeight="96.0" prefWidth="301.0" />
+   </children>
+</AnchorPane>

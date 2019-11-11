@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="399.0" prefWidth="585.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <ScrollPane layoutX="4.0" layoutY="3.0">
+               <content>
+                  <TableView prefHeight="394.0" prefWidth="717.0">
+                    <columns>
+                      <TableColumn fx:id="itemColumn" prefWidth="75.0" text="Item" />
+                      <TableColumn fx:id="descColumn" prefWidth="75.0" text="Descripción" />
+                        <TableColumn fx:id="warehouseColumn" prefWidth="75.0" text="Bodega" />
+                        <TableColumn prefWidth="116.0" text="Cant. Ordenada" />
+                        <TableColumn prefWidth="95.0" text="Cant. Entrada" />
+                        <TableColumn prefWidth="113.0" text="Cant. Pendiente" />
+                        <TableColumn minWidth="0.0" prefWidth="51.0" text="Estado" />
+                        <TableColumn minWidth="0.0" prefWidth="0.0" text="Fecha aprobación" />
+                        <TableColumn prefWidth="136.0" text="Fecha aprobación" />
+                        <TableColumn prefWidth="81.0" text="Fecha orden" />
+                        <TableColumn minWidth="8.0" prefWidth="8.0" text="Item" />
+                        <TableColumn prefWidth="104.0" text="Fecha entrada" />
+                        <TableColumn prefWidth="75.0" text="Dias vcto" />
+                        <TableColumn prefWidth="75.0" text="Comprador" />
+                        <TableColumn prefWidth="75.0" text="No. Orden" />
+                        <TableColumn prefWidth="75.0" text="Proveedor" />
+                        <TableColumn prefWidth="75.0" text="Razón social" />
+                        <TableColumn prefWidth="75.0" text="No. Solicitud" />
+                    </columns>
+                  </TableView>
+               </content>
+            </ScrollPane>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

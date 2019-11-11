@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="383.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.ui.InfoTableView">
+   <children>
+      <ScrollPane prefHeight="246.0" prefWidth="383.0">
+         <content>
+            <TableView fx:id="tableInfo" prefHeight="247.0" prefWidth="383.0">
+               <columns>
+                  <TableColumn fx:id="dataColumn" editable="false" prefWidth="50.0" text="Dato" />
+                  <TableColumn fx:id="valueColumn" editable="false" prefWidth="50.0" text="Valor" />
+               </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
